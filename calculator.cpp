@@ -2,14 +2,8 @@
 #include "ui_calculator.h"
 #include <QRegularExpression>
 
-// Holds current value of calculation
-double calcVal = 0.0;
-
-// Will define if this was the last math button clicked
-bool divTrigger = false;
-bool multTrigger = false;
-bool addTrigger = false;
-bool subTrigger = false;
+// Initialize static QRegularExpression object
+QRegularExpression Calculator::reg("[-+]?[0-9.]*");
 
 Calculator::Calculator(QWidget *parent):
     QMainWindow(parent),
@@ -160,9 +154,6 @@ void Calculator::ChangeNumberSign(){
     QString displayVal = ui->Display->text();
 
     // Regular expression checks if it is a number
-    // plus sign
-    QRegularExpression reg("[-+]?[0-9.]*");
-
     QRegularExpressionMatch match = reg.match(displayVal);
 
     // If it is a number change the sign

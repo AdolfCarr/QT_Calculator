@@ -19,6 +19,15 @@ public:
 
 private:
     Ui::Calculator *ui;
+    // Holds current value of calculation
+    double calcVal = 0.0;
+
+    // Will define if this was the last math button clicked
+    bool divTrigger = false;
+    bool multTrigger = false;
+    bool addTrigger = false;
+    bool subTrigger = false;
+    static QRegularExpression reg; // Static QRegularExpression object
 
 private slots:
     void NumPressed();
