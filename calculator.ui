@@ -17,6 +17,25 @@
    <layout class="QGridLayout" name="gridLayout">
     <item row="1" column="4">
      <widget class="QPushButton" name="pushButton_5">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -24,6 +43,25 @@
     </item>
     <item row="1" column="2">
      <widget class="QPushButton" name="pushButton_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -31,6 +69,25 @@
     </item>
     <item row="3" column="4">
      <widget class="QPushButton" name="pushButton_15">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -38,6 +95,25 @@
     </item>
     <item row="2" column="4">
      <widget class="QPushButton" name="pushButton_10">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -45,6 +121,25 @@
     </item>
     <item row="2" column="3">
      <widget class="QPushButton" name="pushButton_9">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -52,6 +147,25 @@
     </item>
     <item row="3" column="0">
      <widget class="QPushButton" name="pushButton_11">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -59,6 +173,25 @@
     </item>
     <item row="1" column="0">
      <widget class="QPushButton" name="pushButton_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -66,6 +199,25 @@
     </item>
     <item row="1" column="3">
      <widget class="QPushButton" name="pushButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -73,6 +225,25 @@
     </item>
     <item row="3" column="3">
      <widget class="QPushButton" name="pushButton_14">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -80,6 +251,25 @@
     </item>
     <item row="3" column="2">
      <widget class="QPushButton" name="pushButton_13">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -87,6 +277,25 @@
     </item>
     <item row="1" column="1">
      <widget class="QPushButton" name="pushButton_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -94,6 +303,25 @@
     </item>
     <item row="2" column="1">
      <widget class="QPushButton" name="pushButton_7">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -101,6 +329,25 @@
     </item>
     <item row="2" column="0">
      <widget class="QPushButton" name="pushButton_6">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -108,6 +355,25 @@
     </item>
     <item row="3" column="1">
      <widget class="QPushButton" name="pushButton_12">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -115,6 +381,25 @@
     </item>
     <item row="2" column="2">
      <widget class="QPushButton" name="pushButton_8">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -122,6 +407,25 @@
     </item>
     <item row="4" column="0">
      <widget class="QPushButton" name="pushButton_16">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -129,6 +433,25 @@
     </item>
     <item row="4" column="1">
      <widget class="QPushButton" name="pushButton_17">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -136,6 +459,25 @@
     </item>
     <item row="4" column="2">
      <widget class="QPushButton" name="pushButton_18">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -143,6 +485,25 @@
     </item>
     <item row="4" column="3">
      <widget class="QPushButton" name="pushButton_19">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
@@ -150,6 +511,25 @@
     </item>
     <item row="4" column="4">
      <widget class="QPushButton" name="pushButton_20">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #C0C0C0; 
+    border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}
+QPushButton:pressed {
+    background-color: #A9A9A9; border: 1px solid gray;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+      </property>
       <property name="text">
        <string>PushButton</string>
       </property>
