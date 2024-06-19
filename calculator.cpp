@@ -53,6 +53,10 @@ Calculator::Calculator(QWidget *parent):
     connect(ui->Button_sign, SIGNAL(released()), this,
             SLOT(ChangeNumberSign()));
 
+    connect(ui->Button_AC, SIGNAL(released()), this,
+            SLOT(ClearScreen()));
+
+
 }
 
 Calculator::~Calculator()
@@ -170,4 +174,18 @@ void Calculator::ChangeNumberSign(){
         ui->Display->setText(QString::number(dblDisplayValSign));
     }
 
+}
+
+void Calculator::ClearScreen() {
+    // Clear the display
+    ui->Display->setText("0");
+
+    // Reset the stored value
+    calcVal = 0.0;
+
+    // Reset all triggers
+    divTrigger = false;
+    multTrigger = false;
+    addTrigger = false;
+    subTrigger = false;
 }
