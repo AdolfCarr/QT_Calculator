@@ -22,6 +22,9 @@ private:
     // Holds current value of calculation
     double calcVal = 0.0;
 
+    // Memory storage
+    double memory = 0.0;
+
     // Will define if this was the last math button clicked
     bool divTrigger = false;
     bool multTrigger = false;
@@ -35,5 +38,8 @@ private slots:
     void EqualButtonPressed();
     void ChangeNumberSign();
     void ClearScreen();
+    void MemoryAdd();
+    void MemorySubtract();
+    void MemoryRecall();
 };
 #endif // CALCULATOR_H

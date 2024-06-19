@@ -50,6 +50,15 @@ Calculator::Calculator(QWidget *parent):
     connect(ui->Button_AC, SIGNAL(released()), this,
             SLOT(ClearScreen()));
 
+    connect(ui->Button_M_Add, SIGNAL(released()), this,
+            SLOT(MemoryAdd()));
+
+    connect(ui->Button_M_Sub, SIGNAL(released()), this,
+            SLOT(MemorySubtract()));
+
+    connect(ui->Button_M, SIGNAL(released()), this,
+            SLOT(MemoryRecall()));
+
 
 }
 
@@ -179,4 +188,25 @@ void Calculator::ClearScreen() {
     multTrigger = false;
     addTrigger = false;
     subTrigger = false;
+}
+
+void Calculator::MemoryAdd() {
+    QString displayVal = ui->Display->text();
+    double currentDisplayVal = displayVal.toDouble();
+
+    // Add current display value to memory
+    memory += currentDisplayVal;
+}
+
+void Calculator::MemorySubtract() {
+    QString displayVal = ui->Display->text();
+    double currentDisplayVal = displayVal.toDouble();
+
+    // Subtract current display value from memory
+    memory -= currentDisplayVal;
+}
+
+void Calculator::MemoryRecall() {
+    // Display the value stored in memory
+    ui->Display->setText(QString::number(memory));
 }
