@@ -69,6 +69,58 @@ Calculator::~Calculator()
 
 void Calculator::NumPressed(){
 
+    /*-----modify the NumPressed() function to correctly handle
+     * the state when the memory value is displayed.------
+     *
+     * 'qobject_cast' to safely cast the sender object to QPushButton*.
+     * This ensures that the sender is indeed a QPushButton, avoiding
+     * potential crashes if the sender is not of the expected type.-*/
+
+    // Sender returns a pointer to the button pressed
+    QPushButton *button = qobject_cast<QPushButton*>(sender());
+    if (!button) return;
+
+    // Get number on button
+    QString butVal = button->text();
+
+    // Get the value in the display
+    QString displayVal = ui->Display->text();
+
+    // Check if display is showing memory value
+    /*Before appending the pressed digit (butVal) to the display (displayVal),
+     * the function checks if the current display value equals the memory value
+     * (QString::number(memory)). If they match, it clears the display
+     * (ui->Display->clear()) to start entering a new number.
+     *
+     * After ensuring the display is clear (if showing memory), it appends the
+     * pressed digit (butVal) to the current display value (ui->Display->text()).
+     *
+     * Finally, it sets the updated displayVal to the display widget
+     * (ui->Display->setText(displayVal)).
+     *
+     * ensure that you handle the state of the display correctly, especially when
+     * transitioning from displaying one type of information (like memory) to
+     * another (like entering a new number).
+     *
+    */
+    if (displayVal == QString::number(memory)) {
+        // Clear the display to start entering new number
+        ui->Display->clear();
+    }
+
+    // Append the pressed number to the display
+    displayVal = ui->Display->text() + butVal;
+
+    // Update the display with the new value
+    ui->Display->setText(displayVal);
+
+
+    /*-------The NumPressed() function appends the pressed digit
+     * to the current display value (displayVal). When the memory
+     * value is displayed (after pressing M), the function should
+     * clear the display and start displaying the newly pressed digits.-----------
+     *
+
     // Sender returns a pointer to the button pressed
     QPushButton *button = (QPushButton *)sender();
 
@@ -95,6 +147,7 @@ void Calculator::NumPressed(){
         ui->Display->setText(QString::number(dblNewVal, 'g', 16));
 
     }
+    */
 }
 
 void Calculator::MathButtonPressed(){
