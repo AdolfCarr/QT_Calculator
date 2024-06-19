@@ -1,5 +1,6 @@
 #include "calculator.h"
 #include "ui_calculator.h"
+#include <QRegularExpression>
 
 // Holds current value of calculation
 double calcVal = 0.0;
@@ -33,6 +34,24 @@ Calculator::Calculator(QWidget *parent):
         connect(numButtons[i], SIGNAL(released()), this,
                 SLOT(NumPressed()));
     }
+
+    // Connect signals and slots for math buttons
+    connect(ui->Button_add, SIGNAL(released()), this,
+            SLOT(MathButtonPressed()));
+    connect(ui->Button_subs, SIGNAL(released()), this,
+            SLOT(MathButtonPressed()));
+    connect(ui->Button_mult, SIGNAL(released()), this,
+            SLOT(MathButtonPressed()));
+    connect(ui->Button_div, SIGNAL(released()), this,
+            SLOT(MathButtonPressed()));
+
+    // Connect equals button
+    connect(ui->Button_equal, SIGNAL(released()), this,
+            SLOT(EqualButtonPressed()));
+
+    // Connect change sign
+    connect(ui->Button_sign, SIGNAL(released()), this,
+            SLOT(ChangeNumberSign()));
 
 }
 
@@ -69,4 +88,86 @@ void Calculator::NumPressed(){
         ui->Display->setText(QString::number(dblNewVal, 'g', 16));
 
     }
+}
+
+void Calculator::MathButtonPressed(){
+
+    // Cancel out previous math button clicks
+    divTrigger = false;
+    multTrigger = false;
+    addTrigger = false;
+    subTrigger = false;
+
+    // Store current value in Display
+    QString displayVal = ui->Display->text();
+    calcVal = displayVal.toDouble();
+
+    // Sender returns a pointer to the button pressed
+    QPushButton *button = (QPushButton *)sender();
+
+    // Get math symbol on the button
+    QString butVal = button->text();
+
+    if(QString::compare(butVal, "/", Qt::CaseInsensitive) == 0){
+        divTrigger = true;
+    } else if(QString::compare(butVal, "*", Qt::CaseInsensitive) == 0){
+        multTrigger = true;
+    } else if(QString::compare(butVal, "+", Qt::CaseInsensitive) == 0){
+        addTrigger = true;
+    } else {
+        subTrigger = true;
+    }
+
+    // Clear display
+    ui->Display->setText("");
+
+}
+
+void Calculator::EqualButtonPressed(){
+
+    // Holds new calculation
+    double solution = 0.0;
+
+    // Get value in display
+    QString displayVal = ui->Display->text();
+    double dblDisplayVal = displayVal.toDouble();
+
+    // Make sure a math button was pressed
+    if(addTrigger || subTrigger || multTrigger || divTrigger ){
+        if(addTrigger){
+            solution = calcVal + dblDisplayVal;
+        } else if(subTrigger){
+            solution = calcVal - dblDisplayVal;
+        } else if(multTrigger){
+            solution = calcVal * dblDisplayVal;
+        } else {
+            solution = calcVal / dblDisplayVal;
+        }
+    }
+
+    // Put solution in display
+    ui->Display->setText(QString::number(solution));
+
+}
+
+void Calculator::ChangeNumberSign(){
+
+    // Get the value in the display
+    QString displayVal = ui->Display->text();
+
+    // Regular expression checks if it is a number
+    // plus sign
+    QRegularExpression reg("[-+]?[0-9.]*");
+
+    QRegularExpressionMatch match = reg.match(displayVal);
+
+    // If it is a number change the sign
+    if(match.hasMatch()){
+        double dblDisplayVal = displayVal.toDouble();
+        double dblDisplayValSign = -1 * dblDisplayVal;
+
+        // Put solution in display
+        ui->Display->setText(QString::number(dblDisplayValSign));
+    }
+
 }
