@@ -69,6 +69,9 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(Button_M_Add->sizePolicy().hasHeightForWidth());
         Button_M_Add->setSizePolicy(sizePolicy);
+        QFont font;
+        font.setBold(true);
+        Button_M_Add->setFont(font);
         Button_M_Add->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -87,6 +90,7 @@ public:
         Button_9->setObjectName("Button_9");
         sizePolicy.setHeightForWidth(Button_9->sizePolicy().hasHeightForWidth());
         Button_9->setSizePolicy(sizePolicy);
+        Button_9->setFont(font);
         Button_9->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -105,6 +109,7 @@ public:
         Button_M->setObjectName("Button_M");
         sizePolicy.setHeightForWidth(Button_M->sizePolicy().hasHeightForWidth());
         Button_M->setSizePolicy(sizePolicy);
+        Button_M->setFont(font);
         Button_M->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -123,6 +128,7 @@ public:
         Button_M_Sub->setObjectName("Button_M_Sub");
         sizePolicy.setHeightForWidth(Button_M_Sub->sizePolicy().hasHeightForWidth());
         Button_M_Sub->setSizePolicy(sizePolicy);
+        Button_M_Sub->setFont(font);
         Button_M_Sub->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -141,6 +147,7 @@ public:
         Button_mult->setObjectName("Button_mult");
         sizePolicy.setHeightForWidth(Button_mult->sizePolicy().hasHeightForWidth());
         Button_mult->setSizePolicy(sizePolicy);
+        Button_mult->setFont(font);
         Button_mult->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -159,6 +166,7 @@ public:
         Button_1->setObjectName("Button_1");
         sizePolicy.setHeightForWidth(Button_1->sizePolicy().hasHeightForWidth());
         Button_1->setSizePolicy(sizePolicy);
+        Button_1->setFont(font);
         Button_1->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -177,6 +185,7 @@ public:
         Button_7->setObjectName("Button_7");
         sizePolicy.setHeightForWidth(Button_7->sizePolicy().hasHeightForWidth());
         Button_7->setSizePolicy(sizePolicy);
+        Button_7->setFont(font);
         Button_7->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -195,6 +204,7 @@ public:
         Button_div->setObjectName("Button_div");
         sizePolicy.setHeightForWidth(Button_div->sizePolicy().hasHeightForWidth());
         Button_div->setSizePolicy(sizePolicy);
+        Button_div->setFont(font);
         Button_div->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -213,6 +223,7 @@ public:
         Button_add->setObjectName("Button_add");
         sizePolicy.setHeightForWidth(Button_add->sizePolicy().hasHeightForWidth());
         Button_add->setSizePolicy(sizePolicy);
+        Button_add->setFont(font);
         Button_add->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -231,6 +242,7 @@ public:
         Button_3->setObjectName("Button_3");
         sizePolicy.setHeightForWidth(Button_3->sizePolicy().hasHeightForWidth());
         Button_3->setSizePolicy(sizePolicy);
+        Button_3->setFont(font);
         Button_3->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -249,6 +261,7 @@ public:
         Button_8->setObjectName("Button_8");
         sizePolicy.setHeightForWidth(Button_8->sizePolicy().hasHeightForWidth());
         Button_8->setSizePolicy(sizePolicy);
+        Button_8->setFont(font);
         Button_8->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -267,6 +280,7 @@ public:
         Button_5->setObjectName("Button_5");
         sizePolicy.setHeightForWidth(Button_5->sizePolicy().hasHeightForWidth());
         Button_5->setSizePolicy(sizePolicy);
+        Button_5->setFont(font);
         Button_5->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -285,6 +299,7 @@ public:
         Button_4->setObjectName("Button_4");
         sizePolicy.setHeightForWidth(Button_4->sizePolicy().hasHeightForWidth());
         Button_4->setSizePolicy(sizePolicy);
+        Button_4->setFont(font);
         Button_4->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -303,6 +318,7 @@ public:
         Button_2->setObjectName("Button_2");
         sizePolicy.setHeightForWidth(Button_2->sizePolicy().hasHeightForWidth());
         Button_2->setSizePolicy(sizePolicy);
+        Button_2->setFont(font);
         Button_2->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -321,6 +337,7 @@ public:
         Button_6->setObjectName("Button_6");
         sizePolicy.setHeightForWidth(Button_6->sizePolicy().hasHeightForWidth());
         Button_6->setSizePolicy(sizePolicy);
+        Button_6->setFont(font);
         Button_6->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -339,6 +356,7 @@ public:
         Button_AC->setObjectName("Button_AC");
         sizePolicy.setHeightForWidth(Button_AC->sizePolicy().hasHeightForWidth());
         Button_AC->setSizePolicy(sizePolicy);
+        Button_AC->setFont(font);
         Button_AC->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -357,6 +375,7 @@ public:
         Button_0->setObjectName("Button_0");
         sizePolicy.setHeightForWidth(Button_0->sizePolicy().hasHeightForWidth());
         Button_0->setSizePolicy(sizePolicy);
+        Button_0->setFont(font);
         Button_0->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -375,6 +394,7 @@ public:
         Button_sign->setObjectName("Button_sign");
         sizePolicy.setHeightForWidth(Button_sign->sizePolicy().hasHeightForWidth());
         Button_sign->setSizePolicy(sizePolicy);
+        Button_sign->setFont(font);
         Button_sign->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #C0C0C0; \n"
 "    border: 1px solid gray;\n"
@@ -393,6 +413,7 @@ public:
         Button_subs->setObjectName("Button_subs");
         sizePolicy.setHeightForWidth(Button_subs->sizePolicy().hasHeightForWidth());
         Button_subs->setSizePolicy(sizePolicy);
+        Button_subs->setFont(font);
         Button_subs->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -411,6 +432,7 @@ public:
         Button_equal->setObjectName("Button_equal");
         sizePolicy.setHeightForWidth(Button_equal->sizePolicy().hasHeightForWidth());
         Button_equal->setSizePolicy(sizePolicy);
+        Button_equal->setFont(font);
         Button_equal->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "    background-color: #FF8C00; \n"
 "    border: 1px solid gray;\n"
@@ -432,11 +454,11 @@ public:
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(Display->sizePolicy().hasHeightForWidth());
         Display->setSizePolicy(sizePolicy1);
-        QFont font;
-        font.setFamilies({QString::fromUtf8("Arial")});
-        font.setPointSize(18);
-        font.setBold(true);
-        Display->setFont(font);
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Arial")});
+        font1.setPointSize(18);
+        font1.setBold(true);
+        Display->setFont(font1);
         Display->setStyleSheet(QString::fromUtf8("QLineEdit {\n"
 "    background-color: gray;\n"
 "	border: 1px solid gray;\n"
