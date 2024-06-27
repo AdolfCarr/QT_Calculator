@@ -1,4 +1,4 @@
-# Math Basic Calculator and Solution to the Hobies_UserName relational Mapping
+# Math Basic Calculator GUI using QT & Solution to the Find All Hobbies problem.
 
 This repository contains two projects:
 
