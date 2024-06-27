@@ -2,14 +2,14 @@
 
 This repository contains two projects:
 
-## Math Basic Calculator
-- [Math Basic Calculator](https://github.com/AdolfCarr/QT_Calculator/tree/main/basicCalculator)
+## Math Basic Calculator GUI QT_C++
+- [Math Basic Calculator](https://github.com/AdolfCarr/QT_Calculator/tree/main/basicCalculator): 
 A basic GUI calculator application developed in Qt C++. 
 - It supports:
  Basic arithmetic operations such as addition, subtraction, multiplication, and division.
  Commun memory operation.
 
-## Solution to the Hobbies Mapping
+## Solution to the FInd All Hobbies
 An implementation of a solution to map hobby categories to individual names using C++ standard library containers (`std::map` and `std::vector`). The solution includes corrections for typos and necessary headers (`#include <algorithm>`) to ensure correct functionality of `std::find`. It demonstrates an alternative approach to iterating through the data using iterators.
 
 ### Implementation Details
