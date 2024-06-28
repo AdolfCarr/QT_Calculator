@@ -16,5 +16,5 @@ An implementation of a solution to map hobby categories to individual names usin
 - [Structured Bindings](https://github.com/AdolfCarr/QT_Calculator/blob/main/findAllHobbits/findAllHobbits_structuredBinding.cpp): Initially considered but not used due to compilation issues caused by the structured binding syntax, which requires C++17 support.
 - [Iterators](https://github.com/AdolfCarr/QT_Calculator/blob/main/findAllHobbits/findAllHobbits_iteartor.cpp): Implemented as an alternative approach to iterate through the `HobbiesMap` and access values associated with each key-value pair.
 
-Feel free to explore each project further by clicking on their respective links in this README.md file or by navigating to their corresponding directories.
+#### ``Feel free to explore each project further by clicking on their respective links in this README.md file or by navigating to their corresponding directories.``
 
