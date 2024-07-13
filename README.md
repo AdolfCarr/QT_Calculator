@@ -7,7 +7,7 @@ This repository contains two projects:
 A basic GUI calculator application developed in Qt C++. 
 
 <p align="center">
-  <img src="https://github.com/AdolfCarr/QT_Calculator_and_Find_All_Hobbies/blob/main/calc_images/1.png" width="557" height="281">
+  <img src="https://github.com/AdolfCarr/QT_Calculator_and_Find_All_Hobbies/blob/main/calc_images/1.png" width="500" height="250">
 </p>
 <p align="center">
 
