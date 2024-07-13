@@ -7,7 +7,7 @@ This repository contains two projects:
 A basic GUI calculator application developed in Qt C++. 
 
 <p align="center">
-  <img src="https://github.com/AdolfCarr/Rotating3DCube_In_QT_and_Java/blob/main/gif_Images/gif_Java.gif" width="250" height="250">
+  <img src="https://github.com/AdolfCarr/QT_Calculator_and_Find_All_Hobbies/blob/main/calc_images/1.png" width="250" height="250">
 </p>
 <p align="center">
 
