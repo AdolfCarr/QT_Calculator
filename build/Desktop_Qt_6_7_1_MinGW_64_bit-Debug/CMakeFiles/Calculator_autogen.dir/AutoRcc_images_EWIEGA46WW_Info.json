@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/basicCalculator",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/basicCalculator",
+	"INCLUDE_DIR" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Adolfo Carrillo/Documents/Calculator/basicCalculator/cplusplus.png"
+	],
+	"LOCK_FILE" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Adolfo Carrillo/Documents/Calculator/basicCalculator/images.qrc",
+	"VERBOSITY" : 0
+}

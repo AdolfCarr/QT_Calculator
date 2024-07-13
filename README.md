@@ -5,6 +5,12 @@ This repository contains two projects:
 ## Math Basic Calculator GUI QT_C++
 - [Math Basic Calculator](https://github.com/AdolfCarr/QT_Calculator/tree/main/basicCalculator): 
 A basic GUI calculator application developed in Qt C++. 
+
+<p align="center">
+  <img src="https://github.com/AdolfCarr/Rotating3DCube_In_QT_and_Java/blob/main/gif_Images/gif_Java.gif" width="250" height="250">
+</p>
+<p align="center">
+
 - It supports:
  Basic arithmetic operations such as addition, subtraction, multiplication, and division.
  Commun memory operation.

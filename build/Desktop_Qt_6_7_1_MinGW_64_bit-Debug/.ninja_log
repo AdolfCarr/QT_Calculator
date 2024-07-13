@@ -1,0 +1,60 @@
+# ninja log v5
+2	1089	7426048742891343	Calculator_autogen/timestamp	3c886327fa33e45e
+1099	5800	7426048790809552	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+2	1089	7426048742891343	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+2	1089	7426048742891343	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+2	1089	7426048742891343	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+1092	5192	7426048784633345	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	351d18c725a6e785
+5801	6253	7426048795077094	Calculator.exe	90583fd79de7d3bd
+1095	5284	7426048785636265	CMakeFiles/Calculator.dir/main.cpp.obj	ae8c7b2db1c668f
+32	286	7426054193290555	Calculator_autogen/timestamp	3c886327fa33e45e
+32	286	7426054193290555	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+32	286	7426054193290555	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+32	286	7426054193290555	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+314	425	7426054194604923	Calculator_autogen/EWIEGA46WW/qrc_images.cpp	fe007e7c676e68df
+314	425	7426054194604923	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/EWIEGA46WW/qrc_images.cpp	fe007e7c676e68df
+429	573	7426054196204448	CMakeFiles/Calculator.dir/Calculator_autogen/EWIEGA46WW/qrc_images.cpp.obj	11e10c4e365aa4e
+426	5501	7426054245337057	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5502	5874	7426054248872349	Calculator.exe	27f689243a965e13
+14	256	7426054520720856	Calculator_autogen/timestamp	3c886327fa33e45e
+14	256	7426054520720856	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+14	256	7426054520720856	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+14	256	7426054520720856	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+285	5436	7426054572597392	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5437	5794	7426054575968260	Calculator.exe	27f689243a965e13
+15	289	7426054727053632	Calculator_autogen/timestamp	3c886327fa33e45e
+15	289	7426054727053632	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+15	289	7426054727053632	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+15	289	7426054727053632	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+324	5208	7426054776278316	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5209	5682	7426054780797549	Calculator.exe	27f689243a965e13
+14	272	7426057460555668	Calculator_autogen/timestamp	3c886327fa33e45e
+14	272	7426057460555668	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+14	272	7426057460555668	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+14	272	7426057460555668	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+300	5630	7426057513989726	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5631	6006	7426057517734804	Calculator.exe	27f689243a965e13
+15	329	7426058550310595	Calculator_autogen/timestamp	3c886327fa33e45e
+15	329	7426058550310595	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+15	329	7426058550310595	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+15	329	7426058550310595	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+362	7870	7426058625744166	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+7872	8600	7426058632784138	Calculator.exe	27f689243a965e13
+14	264	7426058766139509	Calculator_autogen/timestamp	3c886327fa33e45e
+14	264	7426058766139509	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+14	264	7426058766139509	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+14	264	7426058766139509	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+292	5155	7426058815123911	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5156	5551	7426058818906576	Calculator.exe	27f689243a965e13
+9	195	7426058979491471	Calculator_autogen/timestamp	3c886327fa33e45e
+9	195	7426058979491471	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+9	195	7426058979491471	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+9	195	7426058979491471	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+216	3534	7426059012868860	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+3535	3883	7426059016171791	Calculator.exe	27f689243a965e13
+13	230	7426059166815002	Calculator_autogen/timestamp	3c886327fa33e45e
+13	230	7426059166815002	Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+13	230	7426059166815002	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	3c886327fa33e45e
+13	230	7426059166815002	C:/Users/Adolfo Carrillo/Documents/Calculator/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	3c886327fa33e45e
+255	5315	7426059217671845	CMakeFiles/Calculator.dir/calculator.cpp.obj	d8a7301991a76e27
+5316	5843	7426059222737318	Calculator.exe	27f689243a965e13

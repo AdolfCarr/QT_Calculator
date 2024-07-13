@@ -11,6 +11,15 @@ Calculator::Calculator(QWidget *parent):
 {
     ui->setupUi(this);
 
+    // Set the window flags to remove the title bar
+    //setWindowFlags(Qt::FramelessWindowHint);
+
+    // Set the window title
+    setWindowTitle("    ");
+
+    // Set the window icon
+    setWindowIcon(QIcon(":/cplusplus.png"));
+
     // Put 0.0 in Display
     ui->Display->setText(QString::number(calcVal));
 
